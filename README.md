@@ -37,3 +37,7 @@ kuristina.fetchMangaList('Timbo_KZ')
 ```
 
 See [Kuristina API](https://github.com/TimboKZ/kuristina) for details and `kuristina.d.ts` for typings.
+
+# Contributing
+
+I consider the project to be feature complete. If you add something, extend `kuristina.spec.js` and run `npm test`.
