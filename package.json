@@ -1,0 +1,37 @@
+{
+  "name": "kuristina",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for Kuristina API",
+  "main": "kuristina.js",
+  "scripts": {
+    "test": "mocha kuristina.spec.js --timeout=20000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimboKZ/kuristina-node.git"
+  },
+  "keywords": [
+    "kuristina",
+    "mal",
+    "anime",
+    "myanimelist"
+  ],
+  "author": {
+    "name": "Timur Kuzhagaluyev",
+    "email": "tim.kuzh@gmail.com",
+    "url": "https://foxypanda.me/"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TimboKZ/kuristina-node/issues"
+  },
+  "homepage": "https://github.com/TimboKZ/kuristina-node#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
